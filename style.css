@@ -1,0 +1,29 @@
+/* Googel Font Installation  */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Lato:wght@100;300;400&display=swap');
+/* Google Font Installation Complete */
+h1, h2,button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.container {
+    margin-bottom: 60px;
+}
+.banner-bg {
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+}
+.carousel-item {
+    padding: 20px 40px;
+}
+.but-buy {
+    background-image: linear-gradient(to bottom, rgb(245, 54, 54) 0%, rgb(248, 78, 78));
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 9PX 25PX;
+    cursor: pointer;
+}
+
+.price {
+    color: var(--bs-danger);
+}
