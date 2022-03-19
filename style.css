@@ -5,19 +5,24 @@ h1, h2,button {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
 }
+.navbar{
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgba(128, 128, 128, 0.103);
+    
+}
 .container {
     margin-bottom: 60px;
 }
 .banner-bg {
-    background-color: rgb(248, 248, 248);
+    background-color: #fceae8;
     border-radius: 10px;
 }
 .carousel-item {
     padding: 20px 40px;
 }
 .but-buy {
-    background-image: linear-gradient(to bottom, rgb(245, 54, 54) 0%, rgb(248, 78, 78));
-    color: rgb(255, 255, 255);
+    background-color: #ff448e;
+    color: white;
     border: none;
     border-radius: 10px;
     padding: 9PX 25PX;
@@ -26,4 +31,106 @@ h1, h2,button {
 
 .price {
     color: var(--bs-danger);
+
+}   
+/* Catagory Start */
+.cat1, .cat2, .cat3 {
+    border-radius: 15px;
+    padding: 10px 30px;
+    
+}
+.cat1 > img, .cat2 > img, .cat3 > img{
+    width: 100px;
+}
+.cat1 {
+    background-color: #ffa500;
+}
+.cat2 {
+    background-color: #da70d6;
+}
+.cat3 {
+    background-color: #0000ff;
+}
+/* Catagory End */
+
+/* Custom Card Start */
+.custom-cont {
+    background-color: gray;
+    border-radius: 0px;
+    
+}
+.custom-card{
+    padding: 10px 30px;
+}
+.custom-card>h1,.custom-card>h5,.custom-card > p {
+    padding: 5px 30px;
+    
+}
+
+.custom-card>.but-buy{
+    margin-left: 30px;
+}
+.custom-card > h1 {
+    font-weight: 600;
+    color: orange;
+    
+}
+
+.custom-card > p {
+    font-weight: 400;
+    font-size: large;
+    color: white;
+    
+}
+.custom-card > img {
+   
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.card:hover{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    color: #c6c5c0;
+    background-color: gray;
+    transition: 0.9s;
+}
+
+.banner-bg-bottom {
+    background-color: #fceae8;
+    border-radius: 10px;
+    min-height: 300px;
+}
+footer{
+    text-align: center;
+}
+
+
+/* About Page */
+#authors img {
+    margin-top: -50px; }
+  #authors .card:hover {
+    background: #ff448e;
+    color: #fff; }
+  #authors .fab {
+    color: #fff; }
+
+
+
+/* Contuct Us Page */
+
+.custom-icon {
+    line-height: 2;
+    font-size: 1.5rem;
+}
+#contact {
+    border-radius: 10px;
+}
+
+/* Shop Page */
+.bg-shop {
+    background-color: #f8f9fa;
+    border-radius: 10px;
 }
